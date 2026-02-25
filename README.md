@@ -1,17 +1,16 @@
-Data Processor with Logging
-This is a Python project I created while learning DevOps and Python development. The goal of this script is to demonstrate how to track script activities using a professional logging system instead of just printing to the console.
-Features
- * Automatic Logging: Records every action into a file named process.log.
- * Timestamping: Every log entry includes the exact date and time the action occurred.
- * Process Tracking: Simulates a data cleaning task to show how real-world automation works.
-Project Files
- * data_processor.py: The main script containing the Python logic.
- * process.log: The generated file where all activities are stored.
-How to Setup and Run
- * Make sure you have Python installed in your environment (I am using Termux on Android).
- * Run the script using the command:
-   python data_processor.py
+# Data Processor with Logging 🌑
 
- * To view the log results, use: cat process.log
+This project demonstrates how to track script activities using a professional logging system instead of just printing to the console.
 
+---
+
+### **What it does:**
+* **Automatic Logging:** Records every script action into a file named `process.log`.
+* **Timestamping:** Includes exact date and time for every event.
+* **Process Tracking:** Simulates real-world data automation tasks.
+
+### **How to use:**
+1. Ensure `data_processor.py` is in your directory.
+2. Run the script: `python data_processor.py`.
+3. View logs: Check the results using `cat process.log`.
 
